@@ -1,0 +1,54 @@
+/* INDEX */
+#bg {
+  background: #fad8e0;
+  height:1900px;
+  width:100%;
+  opacity:0.5;
+}
+
+#menuOne, #menuTwo, #menuThree, #menuFour {
+  width:70%;
+  position:absolute;
+  height:1500px;
+  border:3px solid black;
+}
+
+#menuOne {
+  right:7.5%;
+  top:15%;
+  background: #fad8e0;
+  z-index: 10;
+}
+
+#menuTwo {
+  right:12.5%;
+  top:20%;
+  background: #f0e884;
+  z-index: 5;
+
+}
+
+#menuThree {
+  right:17.5%;
+  top:25%;
+  background: #cfebed;
+  z-index: 1;
+
+}
+
+#menuFour{
+  right:22.5%;
+  top:30%;
+  background: #e5e5e5;
+  z-index: 0;
+
+}
+
+h2.rotate {
+	font-size:14px;
+	font-weight:bold;
+	width:140px;
+	height:16px;
+	margin-top:65px;
+	margin-left:-40px;
+}
