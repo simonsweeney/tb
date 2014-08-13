@@ -20,10 +20,12 @@ h1 {
 
 h2 {
   font-size: $base-font-size * 2; // 16 * 2 = 32px
+  font-family: $sans-serif;
 }
 
 h3 {
   font-size: $base-font-size * 1.75; // 16 * 1.75 = 28px
+  font-weight: normal;
 }
 
 h4 {
